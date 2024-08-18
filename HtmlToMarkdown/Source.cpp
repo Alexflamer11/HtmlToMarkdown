@@ -6,7 +6,7 @@
 
 int main()
 {
-	std::string path = "PATH_TO_HTML_FILE";
+	std::string path = "C:\\Users\\Alex\\Downloads\\About Me.html";
 	size_t file_size = std::filesystem::file_size(path);
 
 	std::string file_buffer(file_size, '\0');
